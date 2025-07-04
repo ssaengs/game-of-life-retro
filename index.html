@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game of Life - Pixel Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Game of Life <span style="font-size:0.5em;">(Pixel Art)</span></h1>
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="clear">Clear</button>
+    <button id="random">Random</button>
+    <label>Speed: <input type="range" id="speed" min="1" max="20" value="10"></label>
+  </div>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <footer>
+    <p>Click to toggle cells. Made with ❤️</p>
+  </footer>
+  <script src="gameoflife.js"></script>
+</body>
+</html> 
