@@ -2,6 +2,11 @@
 
 A web-based Game of Life with a pixel-art style UI, served by a Node.js Express server.
 
+## Requirements
+
+- **Node.js** (version 14.x or higher recommended)
+- **npm** (comes with Node.js)
+
 ## How to Run
 
 1. **Install dependencies:**
